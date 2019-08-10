@@ -1,0 +1,100 @@
+body {
+	width: 100%;
+	background-color: #212121;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+		sans-serif;
+}
+
+body, header, nav {
+	margin: 0px;
+}
+
+header {
+	background-color: #0099CC;
+	color: white;
+	padding: 10px 10px;
+}
+
+nav {
+	background-color: #8DC63F;
+	margin-bottom: 20px;
+	padding: 5px;
+	height: 50px;
+}
+
+nav ul {
+	float: left;
+}
+
+nav li {
+	list-style-type: none;
+	color: white;
+	margin-left: 25px;
+	margin-bottom: 10px;
+	font-size: 1.3em;
+	float: left;
+}
+
+nav li a {
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+nav li a:hover {
+	text-decoration: underline;
+}
+
+img {
+	height: 33%;
+}
+
+section {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	clear: both;
+	width: 80%;
+	margin: 20px auto;
+	vertical-align: top;
+	text-align: center;
+	min-height: 450px;
+	background-color: #FFF;
+	border-radius: 7px;
+}
+
+section h1 {
+	position: absolute;
+	left: 47%;
+}
+
+table {
+	padding-top: 60px;
+	padding-left: 30px;
+	padding-right: 70px;
+	align: center;
+	border-spacing: 0px;
+}
+
+table td {
+	padding-right: 0px;
+}
+
+#ratings img {
+	width: 40%;
+	height: 17%;
+}
+
+#name-row {
+	background-color: lightgray;
+}
+
+#ingredient-row {
+	background-color: lightgray;
+}
+
+#rating-row {
+	background-color: lightgray;
+}
+
